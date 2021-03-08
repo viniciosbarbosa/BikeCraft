@@ -126,7 +126,7 @@ ul#list-menu  {
     font-size:24px ;
     font-family: Arial;
     font-weight: bold;
-
+    
 }
 
 .produtos hr{
@@ -246,7 +246,7 @@ ul#list-menu  {
     width: 100%;
     height: 90%;
     margin-top: 3%;
-   border-radius: 10px;
+    border-radius: 10px;
 }
 
 .img-col-6:hover{
@@ -279,6 +279,177 @@ ul#list-menu  {
     margin-top: 5%;
 }
 
+.qualidade{
+    background-color: #fff;
+    padding: 4% 9% 4% 9%;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.qualidade h1{
+    text-align: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.qualidade hr{
+    width: 6%;
+    border: 2px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-Qualidade{
+    margin-top: 2%;
+}
+
+.img-Qualidade::before{
+    border-left:2px solid #000
+}
+
+.qualidade ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.qualidade li{
+    margin-top: 15px;
+}
+
+.menuQualidade{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3% !important;
+}
+
+.menuQualidade h1{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menuQualidade hr{
+    width: 16%;
+}
+
+.menuQualidade p{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.prefooter{
+    padding: 10px 0px 0px 0px;
+    width: auto;
+}
+
+.txtfooter{
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 4%;
+    padding-left: 4%;
+}
+
+
+.img-footer{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+.footerhr{
+    border: 2px solid #fff;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.footer{
+    padding: 1.5% 9% 1.5% 9%;
+    background: #000;;
+}
+
+.footer h1{
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fec63e;
+}
+
+.footer hr{
+    background: #fec63e;
+    border: 2px solid #fec63e;
+    margin-right: calc(100% - 10%);
+}
+
+.footer p{
+    color: #fff;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 70%;
+}
+
+.footer ul{
+    margin:-5px 0px 0px 0px;
+    padding-left: 15px;
+}
+
+.footer li{
+    color: #fff;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#footerhr{
+    border: 2px solid #fec63e;
+    margin-right: calc(100% - 15%) !important;
+    background: #fec63e;
+}
+
+.iconeFooter{
+    border: 4px solid #fec63e;
+    padding: 10px;
+    margin: 2px;
+    width: 23%;
+
+}
+
+.iconeFooter:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.final{
+    background: #fec63e;
+    padding: 0.5% 9% 0.5% 9%;
+}
+
+.final h1{
+    color: #fff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
 @media only screen and (max-width: 890px){
     
     .header{
@@ -298,11 +469,11 @@ ul#list-menu  {
     .list-menu ul{
         flex-direction: column;
     }
-
+    
     .imgMenu{
         height: 43vh;
     }
-
+    
     .TxtImg{
         margin-top: 5%;
     }
@@ -310,30 +481,64 @@ ul#list-menu  {
     .TxtImg h1 {
         font-size: 33px;
     }
-
+    
     .TxtImg hr , .produtos hr{
         width: 15%;
     }
-
+    
     ul#list-menu  {
         display: flex;
         margin-top: 10px;
     }
-
+    
     .img-col-12{
         height: 250px;
     }
-
+    
     .portifolio hr{
         width: 15%;
     }
-   
+    
+    .qualidade hr{
+        width: 15%;
+    }
+    
+    .menuQualidade hr{
+        width: 35%;
+    }
+    
+    .img-footer{
+        height: 25vh;
+    }
+    
+    .footerhr{
+        width: 15%;
+    }
+
+    .footer hr{
+        width: 15%;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 640px){
+    .menuQualidade{
+        display: block;
+    }
+    
+    .menuQualidade hr{
+        width: 15%;
+        word-break: break-all;
+    }
 }
 
 @media only screen and (max-width: 500px){
     .TxtImg{
         margin-top: 7%;
     }
-
+    
     
 }
