@@ -1,3 +1,252 @@
 body{
     background-color:#fff;
 }
+
+
+#header{
+    background-color: #fec63e;
+    display: flex;
+    padding: 9px 10%;
+    position: initial;
+}
+
+.imgNav{
+    width: 80px;
+}
+
+.imgBtn{
+    width: 30px;
+    height: 30px;
+}
+
+.imgBtn:hover{
+    transform: scale(1.1);
+    transition: 0.5s
+}
+
+#list-menu a {
+    color: #000000;
+    
+}
+
+ul#list-menu  {
+    display: flex;
+}
+
+#list-menu li{
+    display:inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 10px ;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+#list-menu li:hover{
+    transform: scale(1.1);
+    transition: 0.5s
+}
+
+.div-list{
+    width: 100%;
+}
+
+.btnMenu{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.ConMenu{
+    padding: 0px 0px 0px 0px;
+    width: auto;
+}
+
+.imgMenu{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+
+.TxtImg{
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 13%;
+}
+
+.TxtImg h1 {
+    font-size: 48px;
+    font-weight: bold;    
+    font-family: 'arial';
+    text-transform: uppercase;
+}
+
+.TxtImg hr{
+    border: 2px solid #fff;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TxtImg span{
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.btnImg{
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fec63e;
+    font-weight: bold;
+    border: 4px solid #fec63e;
+    margin-top: 10px;
+}
+
+.produtos{
+    padding: 4% 9% 4% 9%;
+    width: 100%;
+    height: auto;
+}
+
+.produtos h1{
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-size:24px ;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.produtos hr{
+    border: 2px solid #000000;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.imgProdutos{
+    margin-left: 18%;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.divCard{
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imgCard{
+    width: 70%;
+    margin-left: 13%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s
+}
+
+.card-body{
+    background-color: #fec63e;
+}
+
+#card-title{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+#card-hr{
+    border: 2px solid #000000;
+    width: 24%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    color: #000;
+    font-style: italic;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.txtProd{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnProd{
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fec63e;
+    font-weight: bold;
+    border: 4px solid #fec63e;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 890px){
+    
+    .header{
+        padding :  9px 5%;
+    }
+    
+    .list-menu li{
+        padding: 0px 4px;
+        display: none;
+    }
+    
+    .btnMenu{
+        display: flex;
+        margin-top: 14px;
+    }
+    
+    .list-menu ul{
+        flex-direction: column;
+    }
+
+    .imgMenu{
+        height: 43vh;
+    }
+
+    .TxtImg{
+        margin-top: 5%;
+    }
+    
+    .TxtImg h1 {
+        font-size: 33px;
+    }
+
+    .TxtImg hr , .produtos hr{
+        width: 15%;
+    }
+
+    ul#list-menu  {
+        display: flex;
+        margin-top: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 500px){
+    .TxtImg{
+        margin-top: 7%;
+    }
+}
