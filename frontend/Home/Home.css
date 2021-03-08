@@ -90,6 +90,7 @@ ul#list-menu  {
     width: 6%;
     margin-top: 10px;
     margin-bottom: 10px;
+    background: #fff;
 }
 
 .TxtImg span{
@@ -184,6 +185,7 @@ ul#list-menu  {
     width: 24%;
     margin-top: 5px;
     margin-bottom: 10px;
+    background: #000;
 }
 
 .card-text{
@@ -240,6 +242,7 @@ ul#list-menu  {
     border: 2px solid #fec63e;
     margin-top: 10px;
     margin-bottom: 10px;
+    background: #fec63e;
 }
 
 .img-col-6{
@@ -303,6 +306,7 @@ ul#list-menu  {
     border: 2px solid #000;
     margin-top: 10px;
     margin-bottom: 10px;
+    background: #000;
 }
 
 .img-Qualidade{
@@ -479,7 +483,7 @@ ul#list-menu  {
     }
     
     .TxtImg h1 {
-        font-size: 33px;
+        font-size: 30px;
     }
     
     .TxtImg hr , .produtos hr{
@@ -519,6 +523,12 @@ ul#list-menu  {
         width: 15%;
     }
     
+    .iconeFooter{
+        width: 15%;
+    }
+    .txtfooter{
+        padding-left: 12%;
+    }
 
 }
 
