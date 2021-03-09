@@ -309,6 +309,22 @@ ul#list-menu  {
     background: #000;
 }
 
+.qualidade p{
+    color: #000;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.qualidade a{
+    text-decoration: none;
+    color: #fec63e
+}
+
+.qualidade a:hover{
+    color: #000;
+}
+
 .img-Qualidade{
     margin-top: 2%;
 }
