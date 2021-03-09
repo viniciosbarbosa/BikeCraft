@@ -1,1 +1,4 @@
-alert("Works")
+
+function teste(){
+   alert("roi");
+}
