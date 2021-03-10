@@ -140,7 +140,7 @@ ul#list-menu  {
 }
 
 .prefooter{
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     width: auto;
 }
 
@@ -236,6 +236,11 @@ ul#list-menu  {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+.orcamento{
+    background: #000;
+    padding: 4% 9%;
 }
 
 

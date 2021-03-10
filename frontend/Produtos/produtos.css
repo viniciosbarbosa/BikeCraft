@@ -42,14 +42,38 @@
 }
 
 .prodText{
-background: url("/BikeCraft/assets/fotos/passeio-1.jpg");
-height: 300px;
-width: 100%;
-background-position: center;
-background-size: cover;
-border-radius: 2px;
-margin-bottom: 15px;
-max-width: 64%;
+    background: url("/BikeCraft/assets/fotos/passeio-1.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+}
+
+.prodText2{
+    background: url("/BikeCraft/assets/fotos/esporte-4.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+    margin-top: 5%;
+}
+
+.prodText3{
+    background: url("/BikeCraft/assets/fotos/retro-2.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+    margin-top: 5%;
 }
 
 .prodText:hover{
@@ -57,12 +81,38 @@ max-width: 64%;
     transition: 0.5s;
 }
 
+.prodText2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.prodText3:hover{
+    transform: scale(1.02);
+    transition: 0.5s; 
+}
+
 .prodText h1{
-text-transform: uppercase;
-font-size: 24px;
-font-family: Arial, Helvetica, sans-serif;
-color: #fff;
-text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.prodText2 h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.prodText3 h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
 }
 
 .prodText hr{
@@ -72,12 +122,27 @@ text-align: center;
     margin-bottom: 10px;
 }
 
+
+.prodText2 hr{
+    width: 15%;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prodText3 hr{
+    width: 15%;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .txtImg2{
     color: #fff;
     text-align: center;
     position:absolute;
     margin-top: 15%;
     width: 100%;
+    padding-right: 15p;
 }
 
 .prodBike{
@@ -86,16 +151,34 @@ text-align: center;
     margin-bottom: 15px;
 }
 
+.prodBike2{
+    background: #000;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    margin-top: 5%;
+}
+
 .prodBike:hover{
     transform: scale(1.02);
     transition: 0.5s;
 }
+
+.prodBike2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
 
 .imgBike {
     margin-left: calc(100% - 79%);
     margin-top: calc(100% - 76%);
 }
 
+.imgBike2{
+    margin-left: calc(100% - 79%);
+    margin-top: calc(100% - 76%);
+    margin-top: 5%;
+}
 
 
 .columnGrid{
@@ -109,15 +192,48 @@ text-align: center;
     background-size: 227%
 }
 
+.columnGridEsporte{
+    padding-left: 0px;
+    background: url(/BikeCraft/assets/fotos/esporte-2.jpg);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    background-position-x: 27%;
+    background-position-y: 53%;
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+
+.columnGridRetro{
+    padding-left: 0px;
+    background: url(/BikeCraft/assets/fotos/retro-3.jpg);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    background-position-x: 12%;
+    background-position-y: 90%;
+    background-size: 133%;
+}
+
+.columnGridRetro:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.columnGridEsporte:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
 .columnGrid:hover{
     transform: scale(1.02);
     transition: 0.5s;
     border: 1px solid transparent;
 }
 
-.imgColumn{
-    
-}
+
 
 .card{
     background: #000;
@@ -141,6 +257,7 @@ text-align: center;
 .options{
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 .options .col-6{
@@ -191,31 +308,41 @@ text-align: center;
     .txtImg hr{
         width: 15%;
     }
-
+    
     .txtImg2{
         margin-top: 29%;
         margin-left: -1%;
     }
-
+    
     .imgBike {
         margin-left: calc(100% - 100%);
         margin-top: calc(100% - 50%);
     }
-
+    
     .options .col-6{
         font-size: 16px;
     }
-
+    
     
     
 }
 
 @media only screen and (max-width: 767px){
-
+    
     .prodText{
         max-width: 100%;
     }
-
+    
+    .prodText2{
+        max-width: 100%;
+        margin-top: 3%;
+    }
+    
+    .prodText3{
+        max-width: 100%;
+        margin-top: 3%;
+    }
+    
     .txtImg2{
         margin-top: 20%;
         margin-left: -1%;
@@ -225,30 +352,47 @@ text-align: center;
         margin-top: calc(100% - 90%);
         margin-bottom: calc(100% - 90%);
     }
-
+    
     .prodBike{
         padding-left: 10px;
         margin-left: 0px;
     }
-
+    
+    .prodBike2{
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    
+    
+    
     .columnGrid{
         height: 300px;
         margin-bottom: 10px;
     }
-
     
-   
+    .columnGridEsporte{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .columnGridRetro{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
 }
 
 @media only screen and (max-width: 550px){
     .txtImg{
         margin-top: 20%;
     }
-
+    
     .imgBike {
         margin-left: calc(100% - 78%);
     }
-
+    
     .txtImg2{
         margin-top: 27%;
     }
