@@ -299,6 +299,20 @@
 .columnGrid2{
     padding-left: 10px;
 }
+ 
+.orcamento h1{
+text-transform: uppercase;
+color:#fec63e;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px ;
+font-weight: bold;
+}
+
+.orcamento hr{
+    width: 6%;
+    border: 2px solid #fec63e;
+}
 
 @media only screen and (max-width: 890px){
     .txtImg{
@@ -324,7 +338,9 @@
     }
     
     
-    
+    .orcamento hr{
+        width:15%;
+    }
 }
 
 @media only screen and (max-width: 767px){
