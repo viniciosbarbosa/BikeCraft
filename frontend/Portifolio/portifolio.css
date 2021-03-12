@@ -59,3 +59,13 @@ font-weight: bold;
     background-repeat: no-repeat;
     background: url("/BikeCraft/assets/fotos/retro-3.jpg")
 }
+
+@media only screen and (max-width: 750px) {
+    .TxtImgPort{
+        margin-top: 10%;
+    }
+
+    .TxtImgPort hr {
+        width: 16%;
+    }
+}
