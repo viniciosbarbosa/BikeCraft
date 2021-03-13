@@ -1,0 +1,415 @@
+.produtos{
+    padding: 0px;
+}
+
+.imgprodutos{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.txtImg{
+    color: #fff;
+    text-align: center;
+    position:absolute;
+    margin-top: 7.5%;
+}
+
+.txtImg h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.txtImg hr{
+    border: 2px solid #fff;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.txtImg span{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+}
+
+.catalogo{
+    padding: 4% 9%;
+}
+
+.prodText{
+    background: url("../../assets/fotos/passeio-1.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+}
+
+.prodText2{
+    background: url("../../assets/fotos/esporte-4.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+    margin-top: 5%;
+}
+
+.prodText3{
+    background: url("../../assets/fotos/retro-2.jpg");
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    max-width: 64%;
+    margin-top: 5%;
+}
+
+.prodText:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.prodText2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.prodText3:hover{
+    transform: scale(1.02);
+    transition: 0.5s; 
+}
+
+.prodText h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.prodText2 h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.prodText3 h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.prodText hr{
+    width: 15%;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.prodText2 hr{
+    width: 15%;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prodText3 hr{
+    width: 15%;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.txtImg2{
+    color: #fff;
+    text-align: center;
+    position:absolute;
+    margin-top: 15%;
+    width: 100%;
+    padding-right: 15p;
+}
+
+.prodBike{
+    background: #000;
+    margin-left: 1%;
+    margin-bottom: 15px;
+}
+
+.prodBike2{
+    background: #000;
+    margin-left: 1%;
+    margin-bottom: 15px;
+    margin-top: 5%;
+}
+
+.prodBike:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.prodBike2:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+
+.imgBike {
+    margin-left: calc(100% - 79%);
+    margin-top: calc(100% - 76%);
+}
+
+.imgBike2{
+    margin-left: calc(100% - 79%);
+    margin-top: calc(100% - 76%);
+    margin-top: 5%;
+}
+
+
+.columnGrid{
+    padding-left: 0px;
+    background: url(../../assets/fotos/passeio-4.jpg);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    background-position-x: 27%;
+    background-position-y: 87%;
+    background-size: 227%
+}
+
+.columnGridEsporte{
+    padding-left: 0px;
+    background: url(../../assets/fotos/esporte-2.jpg);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    background-position-x: 27%;
+    background-position-y: 53%;
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+
+.columnGridRetro{
+    padding-left: 0px;
+    background: url(../../assets/fotos/retro-3.jpg);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    background-position-x: 12%;
+    background-position-y: 90%;
+    background-size: 133%;
+}
+
+.columnGridRetro:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.columnGridEsporte:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.columnGrid:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+
+
+.card{
+    background: #000;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card-text{
+    color: #fff;
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.options{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.options .col-6{
+    background: #fec63e;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-right: 2px solid #000;
+}
+
+.options .col-6:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border:1px solid transparent;
+}
+
+#col1{
+    border-bottom-left-radius: 10px;
+    
+}
+
+#col2 {
+    border-bottom-right-radius: 10px;
+    border-right: 2px solid transparent;
+}
+
+#col3{
+    border-right: 2px solid transparent;
+}
+
+.w-100{
+    border: 1px solid #000;
+}
+
+.columnGrid2{
+    padding-left: 10px;
+}
+ 
+.orcamento h1{
+text-transform: uppercase;
+color:#fec63e;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px ;
+font-weight: bold;
+}
+
+.orcamento hr{
+    width: 6%;
+    border: 2px solid #fec63e;
+}
+
+@media only screen and (max-width: 890px){
+    .txtImg{
+        margin-top: 13%;
+    }
+    
+    .txtImg hr{
+        width: 15%;
+    }
+    
+    .txtImg2{
+        margin-top: 29%;
+        margin-left: -1%;
+    }
+    
+    .imgBike {
+        margin-left: calc(100% - 100%);
+        margin-top: calc(100% - 50%);
+    }
+    
+    .options .col-6{
+        font-size: 16px;
+    }
+    
+    
+    .orcamento hr{
+        width:15%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+    .prodText{
+        max-width: 100%;
+    }
+    
+    .prodText2{
+        max-width: 100%;
+        margin-top: 3%;
+    }
+    
+    .prodText3{
+        max-width: 100%;
+        margin-top: 3%;
+    }
+    
+    .txtImg2{
+        margin-top: 20%;
+        margin-left: -1%;
+    }
+    .imgBike {
+        margin-left: calc(100% - 68%);
+        margin-top: calc(100% - 90%);
+        margin-bottom: calc(100% - 90%);
+    }
+    
+    .prodBike{
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    
+    .prodBike2{
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    
+    
+    
+    .columnGrid{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .columnGridEsporte{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .columnGridRetro{
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 550px){
+    .txtImg{
+        margin-top: 20%;
+    }
+    
+    .imgBike {
+        margin-left: calc(100% - 78%);
+    }
+    
+    .txtImg2{
+        margin-top: 27%;
+    }
+}

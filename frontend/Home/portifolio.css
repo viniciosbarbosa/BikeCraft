@@ -1,0 +1,71 @@
+
+.sitaPort{
+    background: #fff;
+    padding: 4% 9% 2% 9%;
+    width: 100%;
+}
+
+.sitaPort p{
+    color: black;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.sitaPort span{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.TxtImgPort{
+    position: absolute;
+    margin-top: 4%;
+}
+
+.TxtImgPort h1{
+text-align: center;
+font-size: 36px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+}
+
+.TxtImgPort hr{
+width: 6%;
+border: 2px solid #fff;
+}
+
+.TxtImgPort p{
+color: #fff;
+font-size: 14px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-weight: bold;
+}
+
+.imgMenuPort{
+    width: 100%;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+    background-position-x: 27%;
+    background-position-y: 53%;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background: url("/BikeCraft/assets/fotos/retro-3.jpg")
+}
+
+@media only screen and (max-width: 750px) {
+    .TxtImgPort{
+        margin-top: 10%;
+    }
+
+    .TxtImgPort hr {
+        width: 16%;
+    }
+}
